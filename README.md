@@ -13,7 +13,7 @@ A fast and effective implementation of __Spotify API__ to play songs on __Spotif
 2. `$ cd Terminal_Spotify` - go inside the project directory.  
 3. `python -m venv env` to create a vitual environment.    
 4. `pip install -r requirements.txt` to install libraries.
-5. `Python ./src/main.py` to execute the python file.
+5. `Python ./main.py` to execute the python file.
 6. Head over to __[Spotify for Developers]("https://developer.spotify.com/")__ and create an app according to the instructions present in the `Documentation`.
 7. Select device and make your choices accordingly.
 8. To refresh the terminal, enter `0`.
