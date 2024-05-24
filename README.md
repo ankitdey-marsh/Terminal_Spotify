@@ -9,12 +9,14 @@ A fast and effective implementation of __Spotify API__ to play songs on __Spotif
 
 
 # Getting Started
-1. `$ git clone https://github.com/ankitdey-marsh/Terminal_Spotify.git` - clone this project to your computer
-2. `$ cd Terminal_Spotify` - go inside the project directory
-3. `Python ./src/main.py` to execute the python file.
-4. Head over to __[Spotify for Developers]("https://developer.spotify.com/")__ and create an app according to the instructions present in the `Documentation`.
-5. Select device and make your choices accordingly.
-6. To refresh the terminal, enter `0`.
+1. `$ git clone https://github.com/ankitdey-marsh/Terminal_Spotify.git` - clone this project to your computer.
+2. `$ cd Terminal_Spotify` - go inside the project directory.  
+3. `python -m venv env` to create a vitual environment.    
+4. `pip install -r requirements.txt` to install libraries.
+5. `Python ./src/main.py` to execute the python file.
+6. Head over to __[Spotify for Developers]("https://developer.spotify.com/")__ and create an app according to the instructions present in the `Documentation`.
+7. Select device and make your choices accordingly.
+8. To refresh the terminal, enter `0`.
 
 # Configurations
 1. Replace the `client_id` , `client_secret` and `redirect uri` from your __Spotify Developer Dashboard__.
